@@ -24,5 +24,4 @@ print(sums)
 sums=sorted(sums)
 
 sums
-
-print("%d, %d, %d" %(sums[-1],sums[-2],sums[-3]))
+print(sums[-1]+sums[-2]+sums[-3])
